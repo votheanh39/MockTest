@@ -28,3 +28,5 @@ jobs:
           destination: reports
       - store_test_results:
           path: app/build/test-results
+      - store_artifacts:
+          path: app/build/test-results/junit
